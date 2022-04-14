@@ -1,0 +1,6 @@
+name: Hello FFW Module
+type: module
+description: 'FFW Agency task'
+package: Custom
+version: 1.0
+core_version_requirement: ^8 || ^9

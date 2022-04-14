@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function nothing_fancy_theme($existing, $type, $theme, $path)
+{
+  return [
+    'hello' => [
+      'variables' => ['hello_var' => null, 'count' => null, 'form' => null],
+      'render element' => 'form'
+    ],
+  ];
+}

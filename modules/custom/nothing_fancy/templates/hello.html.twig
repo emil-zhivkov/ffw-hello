@@ -1,0 +1,19 @@
+<h2>
+  {{ title }}
+</h2>
+<p>{{ count }}</p>
+<p>
+   {{ hello_var }}
+</p>
+
+{% if count > 5 %}
+
+  <div>
+    <form action="/cmodule/manage">
+      <input type="text" name="pattern">
+      <input type="submit" value="Send">
+
+
+    </form>
+  </div>
+{% endif %}

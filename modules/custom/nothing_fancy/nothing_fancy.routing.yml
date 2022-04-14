@@ -1,0 +1,17 @@
+nothing_fancy.hello_mate:
+  path: '/hello'
+  defaults:
+    _controller: '\Drupal\nothing_fancy\Controller\FFWController::hello'
+    _title: 'Hello mate'
+  requirements:
+    _permission: 'access content'
+
+nothing_fancy.manage:
+  path: '/cmodule/manage'
+  defaults:
+    _controller: '\Drupal\nothing_fancy\Controller\FFWController::manage'
+   methods:  [POST]
+  requirements:
+    _access: 'TRUE'
+
+
